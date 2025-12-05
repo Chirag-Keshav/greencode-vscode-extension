@@ -1,8 +1,15 @@
 {
   "name": "co2-calculator",
-  "displayName": "co2 calculator",
-  "description": "Calculate CO2 impact on selected code snippet",
+  "displayName": "GreenCode CO2 Calculator",
+  "description": "Calculate carbon emissions for your code based on regional grid intensity",
   "version": "0.0.1",
+  "publisher": "chiragkeshav007",
+  "icon": "greencode.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chirag-Keshav/greencode-vscode-extension"
+  },
+  "keywords": ["carbon", "co2", "emissions", "sustainability", "green", "environment"],
   "engines": {
     "vscode": "^1.106.1"
   },

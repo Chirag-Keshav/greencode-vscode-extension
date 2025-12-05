@@ -16,7 +16,7 @@ async function detectLocation() {
         res.on("end", () => {
           try {
             const location = JSON.parse(data);
-            console.log("Raw location data:", location);
+            //console.log("Raw location data:", location);
             
             resolve({
               country: location.country_name,
@@ -41,7 +41,7 @@ async function detectLocation() {
 // Get grid intensity from CO2.js built-in data
 function getGridIntensity(countryCodeISO3) {
   try {
-    console.log("ISO3 Country code received:", countryCodeISO3);
+    //console.log("ISO3 Country code received:", countryCodeISO3);
     
     if (!countryCodeISO3) {
       console.log("No country code provided, using global average");
@@ -53,12 +53,12 @@ function getGridIntensity(countryCodeISO3) {
     }
     
     const { data: gridData, type } = averageIntensity;
-    console.log("Grid data type:", type);
-    console.log("Grid data keys sample:", Object.keys(gridData).slice(0, 10));
+    //console.log("Grid data type:", type);
+    //console.log("Grid data keys sample:", Object.keys(gridData).slice(0, 10));
     
     // Use the ISO3 code directly - no mapping needed!
     if (gridData[countryCodeISO3]) {
-      console.log("Found intensity for", countryCodeISO3, ":", gridData[countryCodeISO3]);
+      //console.log("Found intensity for", countryCodeISO3, ":", gridData[countryCodeISO3]);
       return {
         intensity: gridData[countryCodeISO3],
         year: 2022, // Ember data year
