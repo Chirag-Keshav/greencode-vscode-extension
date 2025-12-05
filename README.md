@@ -56,6 +56,7 @@ MIT
 - Built with [CO2.js](https://github.com/thegreenwebfoundation/co2.js)
 - Data from [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - Grid intensity data from [Ember Climate](https://ember-climate.org/)
+- Location data from [IP API](https://ipapi.co)
 ```
 
 ## Step 6: Create LICENSE File
