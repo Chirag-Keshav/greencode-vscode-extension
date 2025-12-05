@@ -59,9 +59,6 @@ MIT
 - Location data from [IP API](https://ipapi.co)
 ```
 
-## Step 6: Create LICENSE File
-
-Create a `LICENSE` file (MIT is standard):
 ```
 MIT License
 
