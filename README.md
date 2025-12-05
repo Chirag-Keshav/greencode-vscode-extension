@@ -57,9 +57,7 @@ MIT
 - Data from [The Green Web Foundation](https://www.thegreenwebfoundation.org/)
 - Grid intensity data from [Ember Climate](https://ember-climate.org/)
 - Location data from [IP API](https://ipapi.co)
-```
 
-```
 MIT License
 
 Copyright (c) 2024 Chirag Keshav
