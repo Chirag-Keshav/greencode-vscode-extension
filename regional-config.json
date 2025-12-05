@@ -1,0 +1,8 @@
+{
+  "region": "India",
+  "gridIntensity": 540,
+  "description": "Grid carbon intensity in grams of CO2 per kilowatt-hour",
+  "source": "Ember Data Explorer",
+  "lastUpdated": "2024-11-22",
+  "notes": "India's grid is coal-heavy, resulting in higher emissions than global average (494 g/kWh)"
+}
