@@ -2,7 +2,7 @@
   "name": "co2-calculator",
   "displayName": "GreenCode assist",
   "description": "Calculate carbon emissions for your code based on regional grid intensity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "chiragkeshav007",
   "icon": "greencode.jpg",
   "repository": {
